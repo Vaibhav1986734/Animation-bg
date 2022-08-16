@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>My Animation Demo</title>
+    </head>
+<style> 
+
+ body
+   {
+      position: relative;
+      animation-name: Changeimg;
+      animation-duration:20s;
+      animation-iteration-count: infinite;
+     
+ }
+
+@keyframes Changeimg 
+{
+   0% 
+       {
+        background: url(images/1.webp);
+        background-size: 100% 100%;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      } 
+     
+      25% 
+       {
+        background: url(images/v.gif);
+        background-size: 100% 100%;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      } 
+
+      50% 
+      {
+        background: url(images/5.webp);
+        background-size: 100% 100%;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      } 
+       
+      75%
+      {
+        background: url(images/back.gif);
+        background-size: 100% 100%;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      }
+     
+      100% 
+      {
+        background: url(images/5.webp);
+        background-size: 100% 100%;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      }  
+       
+ 
+}
+
+
+</style>
+</head>
+ <body>
+       
+  <audio controls>
+    <source src="./audio/86601596.mp3" type="audio/ogg">
+  </audio>
+  
+ </body>
+</html>
